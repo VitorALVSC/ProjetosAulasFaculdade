@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&família=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #4d1111 16.62%,#497b74  85.61%);
+}
+
+/* classe para configuração da imagem.*/
+.cabecalho-imagem{
+    height: 156.6px;
+    padding-top: 20px;
+}
+
+/* classe para configuração do titulo tabela.*/
+.titulo-pagina {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+/* classe para configuração do titulo.*/
+.titulo-tabela {
+    color: #ffffff;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    border-top: 1.9px solid#dfcbcb;
+}
+
+/* classe para configuração da informação nome.*/
+.nome {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;  
+    padding: 5px;
+}
+
+/* classe para configuração da informação de texto inserida.*/
+.texto-nome {
+    background: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(151, 22, 22);
+    border:none;
+    outline:none;
+}
+
+/* Classe para configuração da cor do placeholder.*/
+.texto-nome::placeholder {
+    color: rgb(151, 22, 22);
+}
+
+/* Classe para configuração da cor de fundo da opção de inserir o nome.*/
+.inclusao-nome {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+/* Classe para configuração da informação selecione o sabor que deseja.*/
+.sabores {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;    
+    padding: 5px;
+    width: 8.5cm;
+}
+
+/* Classe para configuração da opção de informar os sabores.*/
+.selecionar-sabores {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 15.4cm;
+
+}
+
+/* Classe para configuração das informações dos sabores depois de selecionado.*/
+.sabores-informados {
+    background: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border:none;
+    outline:none;
+    color: rgb(151, 22, 22);
+}
+
+/* Classe para configuração dos sabores da lista.*/
+.opcoes-sabores {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(151, 22, 22);
+}
+
+/* Classe para configuração das informações de informar o tamanho desejado.*/
+.tamanho {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;   
+    padding: 18px;
+    width: 7cm;
+}
+
+/* Classe para configuração das informações de informar o adicional desejado.*/
+.adicionais {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;    
+    padding: 18px;
+    width: 4.8cm;
+}
+
+/* Classe para configuração da borda de observações.*/
+.observacoes-borda {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 0cm;
+}
+
+/* Classe para configuração da fonte de observações.*/
+.observacoes-font {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Classe para configuração da opção de adicionar texto de observação.*/
+.texto-observacoes {
+    background: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(151, 22, 22);
+    border:none;
+    outline:none;
+    padding: 0%;
+}
+
+/* Classe para configuração do botão enviar.*/
+.enviar {
+    background-color: #092622;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border:none;
+    color: #ffffff;
+    padding: 5px;
+    width: 5cm;
+}
+
+/* Classe para configuração do botão ao passar o mouse.*/
+.enviar:hover {
+    background-color: rgb(31, 46, 61);
+    cursor: pointer;
+    transition: 1s;
+}

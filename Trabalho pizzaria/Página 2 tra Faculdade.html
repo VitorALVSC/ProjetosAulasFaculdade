@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="Página para pedidos">
+    <title>Trabalho 2 da faculdade</title>
+    <link rel="stylesheet" type="text/css" href="trabalho2.css">
+</head>
+<body>
+    <div style="overflow-x: auto;">
+        <form method="post" action="teste.jsp">
+            <!--Primeira tableba para inclusão da logo e os dois titulos da página.
+            Abaixo dos dois titulos a solicitação do nome e inclusão do nome.-->
+            <table>
+                <caption class="titulo-pagina">A melhor<img class="cabecalho-imagem" src="pizzaria.png" alt="Logo de testes">da região</caption>
+                <caption class="titulo-tabela">Tabela de pedidos</caption> 
+                <tr>
+                    <td class="nome"> Nome do solicitante:</td>
+                    <td class="inclusao-nome"><input class="texto-nome" type="text" size="58" placeholder="Informe o seu nome completo"></td>
+                </tr>
+            </table>
+            <!--Segunda tabela para inclusão das opções selecionaveis dos sabores existentes.-->
+            <table>
+                <tr>    
+                    <td class="sabores">Selecione o sabor que deseja:</td>
+                    <td class="selecionar-sabores">
+                        <p><select name="sabor" class="sabores-informados">
+                            <option class="opcoes-sabores" disabled selected>Selecione o Sabor</option>
+                            <option class="opcoes-sabores">Picanha ao quatro queijos</option>
+                            <option class="opcoes-sabores">Calabresa</option>
+                            <option class="opcoes-sabores">Cinco queijos</option>
+                            <option class="opcoes-sabores">Strogonoff</option>
+                            <option class="opcoes-sabores">Sabor da casa</option>
+                            <option class="opcoes-sabores">Frango com catupiry</option>
+                            <option class="opcoes-sabores">Lombinho</option>
+                            <option class="opcoes-sabores">Fraudinha e costela</option>
+                            <option class="opcoes-sabores">Doritos com cheedar</option>
+                            <option class="opcoes-sabores">Frango acebolado</option>
+                            <option class="opcoes-sabores">Parmeggiana</option>
+                            <option class="opcoes-sabores">Paulista</option>
+                            <option class="opcoes-sabores">Atum</option>
+                            <option class="opcoes-sabores">Sorvete com chocolate branco</option>
+                            <option class="opcoes-sabores">Confetes</option>
+                        </p>                                                                                                                                </p>
+                    </td>
+                </tr>
+            </table>
+            <!--Terceira tabela para inclusão das opções selecionaveis das opções de Tamanho e Adicionais.
+            Abaixo das dua opções o campo para inclusão de observações desejaveis.-->
+            <table>
+                <tr>
+                    <td class="tamanho">Selecione o tamanho que deseja:</p>
+                        <br><br>
+                        <p><input type="radio" name="tamanho" value="g">Grande</p>
+                        <br>
+                        <p><input type="radio" name="tamanho" value="m">Média</p>
+                        <br>
+                        <p><input type="radio" name="tamanho" value="p">Pequena</p>
+                    </td>
+                    <td class="adicionais">Adicionais:</p>
+                        <br><br>
+                        <p><input type="checkbox" name="borda" value="sim">Borda</p>
+                        <br>
+                        <p><input type="checkbox" name="refrigerante" value="sim">Refrigerante</p>
+                        <br>
+                        <p><input type="checkbox" name="ketchup" value="sim">Ketchup</p>
+                        <br>
+                        <p><input type="checkbox" name="molho especial" value="sim">Molho Especial</p>
+                    </td>
+                    <td class="observacoes-borda"><h class="observacoes-font">Observações:
+                        <textarea name="observações"class="texto-observacoes" cols="50" rows="12"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <!--Quarta tabela para o botão de enviar ao informar todos os dados desejaveis acima.-->
+            <table>
+                <tr>
+                    <td>
+                        <button type="submit" class="enviar">Enviar</button>
+                    </td>
+                </tr>    
+            </table>    
+        </form>
+    </div>
+</body>
+</html>
